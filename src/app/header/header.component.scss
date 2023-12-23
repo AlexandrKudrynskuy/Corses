@@ -1,0 +1,22 @@
+$main-font-family:'Comic Sans MS';
+$main-font-size:1.2vw;
+.headerStyle{
+    width: 80vw;
+    height: 10vw;
+    margin-left: 10vw;
+    background-color: white;
+    padding-top: 1vw;
+}
+.main-font-family{
+font-family: $main-font-family;
+}
+.main-font-size{
+    font-size: $main-font-size;
+}
+.col-5{
+   width: 28vw;
+   margin-top: 0;
+}
+.container{
+    height: 10vw;
+}

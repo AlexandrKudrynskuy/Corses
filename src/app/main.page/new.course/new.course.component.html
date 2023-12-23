@@ -1,0 +1,62 @@
+<div class="recomentedDiv">
+    <div class="divHeader">
+        Недавно додані
+    </div>
+    
+<ngb-carousel [interval]="3000" [pauseOnHover]="true" [showNavigationArrows]="true" [showNavigationIndicators]="true">
+
+    @for (array of rez ; track $index)
+    {
+    <ng-template ngbSlide>
+        <div class="recomendelCarusel">
+
+            @for(item of array; track item.id)
+            {
+            <div class="card">
+                <img src={{item.path}} class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title">{{item.name}}</div>
+                    <div style="display: flex; flex-direction: row; ">
+                        <div >
+                            <div class="card-text">{{item.teacher}}</div>
+                            <div>
+                                <div style="font-size: 1.3vw;">{{item.reating}} <div class="rating">
+                                    <div *ngFor="let star of stars"  [ngClass]="{'filled': star === item.reating , 'half-filled': star > item.reating, 'half-filled1': item.reating-star+1<=0}"></div>
+                                  </div></div>
+                                <div style="font-size: 0.7vw;">{{item.count_hours}} загальних годин - {{item.count_classes}} занять</div>
+                            </div>
+                            <div></div>
+                        </div>
+                        <div>
+                        @if(item.price>0){
+                           <div style="font-size: 1.5vw;">{{item.price}}$</div> 
+                        }
+                        @else {
+                            <img style="width: 5vw;" src="/assets/free.png">
+                        }
+                        
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            }
+        </div>
+    </ng-template>
+    }
+  
+</ngb-carousel>
+
+<button class="btn rounded-pill d-flex align-items-center justify-content-center">Дізнатися більше</button>
+</div>
+<!-- <ngb-rating [max]="5" [readonly]="true" [(rate)]="rang" [starTemplate]="t">
+</ngb-rating>
+ <ng-template #t let-fill="fill"> 
+  <span class="star">
+    <span class="full" [style.width.%]="fill * 100">★</span>
+    <span class="empty">☆</span>
+  </span>
+</ng-template>
+</div> -->
+ 

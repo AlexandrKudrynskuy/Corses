@@ -1,0 +1,48 @@
+.commentdiv{
+    background-image: url('/assets/background/comentback.png');
+    background-size: 100%;
+    width: 90vw;
+    height: 60.5vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comic Sans MS';
+    
+}
+.bodycomments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.commentsUser{
+    margin-top: 4vw;
+    display: flex;
+    width: 35vw;
+}
+.divHeader{
+    margin-top: 8vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-left: 6vw;
+}
+.comment{
+    margin-left: 2vw;
+    width: 22;
+    
+}
+.dateComment{
+    display: flex;
+    font-size: 1vw;
+}
+button{
+
+    color:  #f87c56; 
+    height: 3vw; 
+    background-color:hwb(0 100% 0%);
+    border-color: #f87c56;
+    width: 15vw;
+    margin-top: 9vw;
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}

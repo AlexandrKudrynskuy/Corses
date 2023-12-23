@@ -1,0 +1,26 @@
+
+<div class="ourTeacherDiv">
+    <div class="teatherHeader">Наші викладачі</div>
+<ngb-carousel [interval]="3000" [pauseOnHover]="true" [showNavigationArrows]="true">
+
+    <ng-template ngbSlide>
+        <div class="teatherCarusel">
+
+            @for(item of teacher_array; track item.id)
+            {
+            <div class="card" >
+                <img src={{item.photopath}} class="card-img-top" >
+                <div class="card-body">
+                    <div class="card-title">{{item.name}}</div>
+                    <div class="card-text">{{item.education}}</div>
+                   
+                </div>
+            </div>
+
+            }
+        </div>
+    </ng-template>
+
+</ngb-carousel>
+<button>Хочу познайомитись</button>
+</div>

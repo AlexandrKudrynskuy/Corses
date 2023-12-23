@@ -1,0 +1,32 @@
+
+<div class="mainDiv">
+    <div style="display: flex; flex-direction: column;margin-top: 5vw;" >
+    <b style="font-size: 3vw;font-family: 'Comic Sans MS';display: flex;justify-content: center;margin-bottom: 0">А тепер про те,як ми будемо навчатися,</b>
+    <b style="font-size: 3vw;font-family: 'Comic Sans MS';display: flex;justify-content: center;margin-top: 0vw;">і що тебе  чекає на онлайн курсах</b>
+</div>
+    <div style="margin-top: 3vw;margin-left: 7vw; display: flex; flex-direction: column;">
+       
+        @for (w_elements of wElem_array; track w_elements){
+            <div style="display: flex;flex-direction: row;margin-top: 2vw;" class="row">
+                <img style="width: 5.5vw;height: 4vw;" src={{w_elements.path}}>
+                <div  class="col">
+                   <div class="row">
+                       <b style="font-size: 1.5vw;margin-bottom: 0.1vw;font-family: 'Comic Sans MS';">{{w_elements.name}}</b>
+                   </div>
+                   <div class="row">
+                       <p style="font-size: 1vw;margin-top: 0.1vw;font-family: 'Comic Sans MS';">{{w_elements.info}}</p>
+                   </div>
+       
+                </div>
+               </div>
+        }
+        
+     
+        
+    </div>
+    <div style="display: flex;justify-content: flex-end;align-items: flex-end;">
+    <button style="margin-top: 3vw; margin-left: 0;margin-bottom: 6.8vw;margin-right: 10vw; height:2.5vw ; width: 15vw; background-color:#f87c56;color: white;border-radius: 30px; border: 1px;border-color:#f87c56;" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+        <span style="font-size: 1vw;text-align: center;display: flex;align-items: center;justify-content: center;">Буду вчитися!</span>
+    </button>
+   </div>
+</div>

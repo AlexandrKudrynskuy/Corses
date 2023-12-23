@@ -1,0 +1,24 @@
+<div class="commentdiv">
+    <div class="divHeader">
+        Вони пишуть про нас
+    </div>
+    <div class="bodycomments">
+    @for(item of comments_array; track item.id)
+    {
+        <div class="commentsUser">
+            <div ><img style="width: 9vw; height: 9vw;" src={{item.photopath}} ></div>
+            <div class="comment">
+                <div class="dateComment">
+                    <div>{{item.date}}</div>
+                    <div style="margin-right: 0; margin-left: auto;">
+                        <ngb-rating [(rate)]="item.rating" [max]="5" [readonly]="true" style="color: rgb(229, 148, 91); " ></ngb-rating>
+                    </div>
+                </div>
+                <div style="font-size: 1.3vw;">{{item.name}}</div>
+                <div style="font-size: 0.9vw;">{{item.comment}}</div>
+            </div>
+        </div>
+    }
+    </div>
+    <button class="btn rounded-pill d-flex align-items-center justify-content-center">Переглянути всі відгуки</button>
+    </div>

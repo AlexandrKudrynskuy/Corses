@@ -1,0 +1,100 @@
+.recomentedDiv{
+    background-image: url('/assets/background/recomendback.png');
+    background-size: 100%;
+    width: 90vw;
+    height: 56vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Comic Sans MS';
+}
+.divHeader{
+    margin-top: 9vw;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-left: 6vw;
+    margin-right: auto;
+}
+.recomendelCarusel{
+    font-family: 'Comic Sans MS';
+    display: flex;
+    justify-content: space-around;
+    width: 85vw;
+
+}
+.card{
+    width: 18vw;
+    margin-top: 3vw;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    
+}
+.card-img-top{
+    width: 18vw;
+    height: 18vw;
+}
+.card-body{
+  width: 18vw;
+    display: flex;
+    flex-direction: column;
+}
+.card-text{
+    font-size: 0.8vw;
+}
+.card-title{
+    font-size: 1.2vw;
+}
+button{
+
+    color:  #f87c56; 
+    height: 3vw; 
+    background-color:hwb(0 100% 0%);
+    border-color: #f87c56;
+    width: 15vw;
+    margin-top: 3vw;
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rating {
+    display: inline-block;
+  }
+.carusel{
+  width: 90vw;
+}
+  .rating div {
+    display: inline-block;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-image: url('/assets/stars/5.jpg'); /* Замініть шлях на шлях до вашого зображення зірки */
+    background-size: cover;
+  }
+
+  //.rating .filled {
+    // background-position: 0 -15px; /* Замініть це значення на позицію зірки, яка відповідає заповненій зірці */
+  //}
+
+  .rating .half-filled {
+    // background-position: 0 -30px; /* Замініть це значення на позицію зірки, яка відповідає напівзаповненій зірці */
+    background-image: url('/assets/stars/3.jpg'); /* Замініть шлях на шлях до вашого зображення зірки */
+
+  }
+  .rating .half-filled1 {
+    // background-position: 0 -30px; /* Замініть це значення на позицію зірки, яка відповідає напівзаповненій зірці */
+    background-image: url('/assets/stars/1.jpg'); /* Замініть шлях на шлях до вашого зображення зірки */
+
+  }
+
+
+  .star {
+    display: inline-block;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-size: cover;
+  }
+  

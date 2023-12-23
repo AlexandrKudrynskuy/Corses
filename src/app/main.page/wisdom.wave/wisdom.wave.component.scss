@@ -1,0 +1,49 @@
+.wisdom{
+    background-image: url('/assets/First.jpg');
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 43vw;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.logoWawe{
+    margin-left: 5vw;
+    margin-top: 7vw;
+    font-family: 'Mochiy Pop One';
+    font-size: 4vw;
+}
+.infoWawe{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 1.5vw;
+    font-size: 1.5vw;
+}
+.buttonOll{
+    color: #f87c56;
+    height: 3vw; 
+    background-color: hwb(0 100% 0%);
+    width: 15vw;
+    border-color: #f87c56;
+    margin-left: 10vw;
+    font-size: 1vw;
+}
+.buttonFreeCurs{
+    color: hwb(0 100% 0%);
+    height: 3vw; 
+    background-color: #f87c56; 
+    width: 15vw;
+    font-size: 1vw;
+    
+   
+}
+.divButtonCurs{
+    
+    display: flex;
+    width: 40vw;
+
+}
+div{
+    font-family: 'Comic Sans MS';
+}

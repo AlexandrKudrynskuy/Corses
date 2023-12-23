@@ -1,0 +1,66 @@
+$orange_Color:#f87c56;
+$white_Color: white;
+
+footer{
+    
+    width: 90vw;
+    background-color: $orange_Color;
+    height: 30vw;
+    margin-left: 5vw;
+} 
+footer div div img{
+    width: 20vw;
+    height: 10vw;
+    margin-left: 0vw;
+    margin-right: 5%;
+}
+
+footer div div a{
+    color:$white_Color;
+    margin-bottom: 1%;
+    text-wrap: nowrap;
+    font-size: 1vw;
+    font-family: 'Comic Sans MS';
+
+
+}
+footer div div p{
+    color:$white_Color;
+    margin-bottom: 1%;
+    text-wrap: nowrap;
+    font-family: 'Comic Sans MS';
+   font-size: 1vw;
+
+}
+.Butt{
+    background-color: $white_Color;
+    border-radius: 30px;
+    color:$orange_Color;
+    border: 1px;
+    border-color:$orange_Color;
+    height: 3vw;
+    width: 17vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: -3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+margin-left: 3vw;
+}
+.h5l{
+    margin-top: 35%;
+    text-wrap: nowrap;
+    margin-left: 15%;
+    font-size: 20px;
+}
+
+
+.tagP{
+    font-size: 1.5vw;
+    color: $white_Color;
+    margin-bottom: 30%;
+    
+}

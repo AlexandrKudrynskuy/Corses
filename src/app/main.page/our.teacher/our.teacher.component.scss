@@ -1,0 +1,71 @@
+.ourTeacherDiv{
+    background-image: url('/assets/background/ourteatcherback.png');
+    background-size: 100%;
+    width: 90vw;
+    height: 56vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS';
+}
+.teatherCarusel{
+    font-family: 'Comic Sans MS';
+    display: flex;
+    justify-content: space-around;
+    width: 87vw;
+}
+.carousel-control-next-icon{
+    background-image: url('/assets/nextbutton.png');
+    margin-left: 11vw;
+    margin-top: 15vw;
+    height: 5vw;
+    width: 5vw;
+}
+.carousel-control-prev-icon{
+    background-image: url('/assets/prevbutton.png');
+    margin-right: 11vw;
+    margin-top: 15vw;
+    height: 5vw;
+    width: 5vw;
+}
+.card{
+    width: 23vw;
+    margin-top: 4vw;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    
+}
+.teatherHeader{
+    margin-top: 2vw;
+   margin-left: auto;
+   margin-right: auto;
+    font-size: 2vw;
+    font-weight: bold;
+}
+button{
+    color:  #f87c56; 
+    height: 3vw; 
+    background-color:hwb(0 100% 0%);
+    border-color: #f87c56;
+    width: 15vw;
+    margin-top: 9vw;
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.card-text{
+    font-size: 0.9vw;
+}
+.card-title{
+font-size: 1vw;
+font-weight: bold;
+}
+
