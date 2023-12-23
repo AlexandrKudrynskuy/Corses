@@ -79,18 +79,18 @@ export class Subject_service
     public InitTesrSubject(): SubjectClass[]
     {
         var arr=new Array<SubjectClass>;
-        arr.push(new SubjectClass(1,"Теорія графічного дизанйу для початківців","/assets/imgeducationalsubject/1.png","Ігор Бондаренко",0,3,10,30));
-        arr.push(new SubjectClass(2,"Основи живопису, малюнку та композиції","/assets/imgeducationalsubject/2.png","Григорій Перейма",2000,4.3,35,46));
-        arr.push(new SubjectClass(3,"Основи кольорознавства","/assets/imgeducationalsubject/3.png","Ігор Бондаренко",0,4.3,10,30));
-        arr.push(new SubjectClass(4,"Теорія і практика творчгого мислення","/assets/imgeducationalsubject/4.png","Галина Немирова",3500,4.7,20,50));
-        arr.push(new SubjectClass(5,"Програма лідерства в команді","/assets/imgeducationalsubject/5.png","Євгенія Калиновська",0,2.5,10,30));
-        arr.push(new SubjectClass(6,"Нейромережа і візуалізація образів","/assets/imgeducationalsubject/6.png","Олексій Паперний",2000,4.3,35,46));
-        arr.push(new SubjectClass(7,"Навчальний курс SQL","/assets/imgeducationalsubject/7.png","Ганна Важна",0,4.2,10,30));
-        arr.push(new SubjectClass(8,"Теорія і практика емоційного мислення","/assets/imgeducationalsubject/8.png","Галина Немирова",1500,4.7,20,50));
-        arr.push(new SubjectClass(9,"UI/UX дизайн","/assets/imgeducationalsubject/9.png","Віолета Бойко",0,4.5,40,56));
-        arr.push(new SubjectClass(10,"Повний навчальний курс SQL","/assets/imgeducationalsubject/10.png","Валентина Шпак",2000,4.3,15,36));
-        arr.push(new SubjectClass(11,"Основи спілкування","/assets/imgeducationalsubject/11.png","Ігор Бондаренк0",0,4.2,10,30));
-        arr.push(new SubjectClass(12,"Художнє проектування колекції одягу","/assets/imgeducationalsubject/12.png","Валентина Чепурна",2500,4.7,20,50));
+        arr.push(new SubjectClass(1,"Теорія графічного дизанйу для початківців","/assets/mainpage/imgeducationalsubject/1.png","Ігор Бондаренко",0,3,10,30));
+        arr.push(new SubjectClass(2,"Основи живопису, малюнку та композиції","/assets/mainpage/imgeducationalsubject/2.png","Григорій Перейма",2000,4.3,35,46));
+        arr.push(new SubjectClass(3,"Основи кольорознавства","/assets/mainpage/imgeducationalsubject/3.png","Ігор Бондаренко",0,4.3,10,30));
+        arr.push(new SubjectClass(4,"Теорія і практика творчгого мислення","/assets/mainpage/imgeducationalsubject/4.png","Галина Немирова",3500,4.7,20,50));
+        arr.push(new SubjectClass(5,"Програма лідерства в команді","/assets/mainpage/imgeducationalsubject/5.png","Євгенія Калиновська",0,2.5,10,30));
+        arr.push(new SubjectClass(6,"Нейромережа і візуалізація образів","/assets/mainpage/imgeducationalsubject/6.png","Олексій Паперний",2000,4.3,35,46));
+        arr.push(new SubjectClass(7,"Навчальний курс SQL","/assets/mainpage/imgeducationalsubject/7.png","Ганна Важна",0,4.2,10,30));
+        arr.push(new SubjectClass(8,"Теорія і практика емоційного мислення","/assets/mainpage/imgeducationalsubject/8.png","Галина Немирова",1500,4.7,20,50));
+        arr.push(new SubjectClass(9,"UI/UX дизайн","/assets/mainpage/imgeducationalsubject/9.png","Віолета Бойко",0,4.5,40,56));
+        arr.push(new SubjectClass(10,"Повний навчальний курс SQL","/assets/mainpage/imgeducationalsubject/10.png","Валентина Шпак",2000,4.3,15,36));
+        arr.push(new SubjectClass(11,"Основи спілкування","/assets/mainpage/imgeducationalsubject/11.png","Ігор Бондаренк0",0,4.2,10,30));
+        arr.push(new SubjectClass(12,"Художнє проектування колекції одягу","/assets/mainpage/imgeducationalsubject/12.png","Валентина Чепурна",2500,4.7,20,50));
         return arr;
     }
     public SplitArray(count:number, arr:SubjectClass[]){ 
