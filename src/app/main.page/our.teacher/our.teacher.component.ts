@@ -54,9 +54,9 @@ export class MainPageOurTeacher {
   
   
   teacher_array=[ 
-    new Teacher(1,"Марія Перната","Викладач англійської мови","/assets/teachers/teacher1.png"), 
-    new Teacher(2,"Олекса Остапчук","Викладач програмування","/assets/teachers/teacher2.png"), 
-    new Teacher(3,"Ганна Свічад","Викладач кольоровознавства","/assets/teachers/teacher3.png"), 
+    new Teacher(1,"Марія Перната","Викладач англійської мови","/assets/mainpage/teachers/teacher1.png"), 
+    new Teacher(2,"Олекса Остапчук","Викладач програмування","/assets/mainpage/teachers/teacher2.png"), 
+    new Teacher(3,"Ганна Свічад","Викладач кольоровознавства","/assets/mainpage/teachers/teacher3.png"), 
  
    
  ]; 

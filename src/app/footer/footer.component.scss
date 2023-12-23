@@ -1,6 +1,6 @@
 $orange_Color:#f87c56;
 $white_Color: white;
-
+$font_Csm: 'Comic Sans MS';
 footer{
     
     width: 90vw;
@@ -20,7 +20,7 @@ footer div div a{
     margin-bottom: 1%;
     text-wrap: nowrap;
     font-size: 1vw;
-    font-family: 'Comic Sans MS';
+    font-family: $font_Csm;
 
 
 }
@@ -28,7 +28,7 @@ footer div div p{
     color:$white_Color;
     margin-bottom: 1%;
     text-wrap: nowrap;
-    font-family: 'Comic Sans MS';
+    font-family: $font_Csm;
    font-size: 1vw;
 
 }
