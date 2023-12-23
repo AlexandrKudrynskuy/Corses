@@ -50,9 +50,9 @@ import { CommonModule } from '@angular/common';
 })
 export class MainPageWaitCourses {
   wElem_array=[
-  new WaitingElem(1,"Онлайн - заняття у твоєму особистому кабінеті","/assets/iconshowlearning/icon1.png","Навчайся у  будь-який час,з будь-якої точки земної кулі"),
-  new WaitingElem(2,"Інтерактивна система спілкування викладача з учнем","/assets/iconshowlearning/icon2.png","Ми завжди на зв'зку із тобою"),
-  new WaitingElem(3,"Домашні завдання після кожного заняття","/assets/iconshowlearning/icon3.png","Ми тримаємо руку на пульсі і допомагаємо тобі досягти найкращих результатів"),
-  new WaitingElem(4,"Особисті онлайн-консультації","/assets/iconshowlearning/icon4.png","Залишилися питання?Ти завжди отримаєш відповіді на них"),
+  new WaitingElem(1,"Онлайн - заняття у твоєму особистому кабінеті","/assets/mainpage/iconshowlearning/icon1.png","Навчайся у  будь-який час,з будь-якої точки земної кулі"),
+  new WaitingElem(2,"Інтерактивна система спілкування викладача з учнем","/assets/mainpage/iconshowlearning/icon2.png","Ми завжди на зв'зку із тобою"),
+  new WaitingElem(3,"Домашні завдання після кожного заняття","/assets/mainpage/iconshowlearning/icon3.png","Ми тримаємо руку на пульсі і допомагаємо тобі досягти найкращих результатів"),
+  new WaitingElem(4,"Особисті онлайн-консультації","/assets/mainpage/iconshowlearning/icon4.png","Залишилися питання?Ти завжди отримаєш відповіді на них"),
   ]
 }

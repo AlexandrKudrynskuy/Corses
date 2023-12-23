@@ -47,21 +47,21 @@ import { FormsModule } from '@angular/forms';
 })
 export class MainPageSubject {
   subject_array=[
-    new Subject(1,"Мистецтво","/assets/imgkudr/art.png"),
-    new Subject(5,"Освіта та викладання","/assets/imgkudr/education.png"),
-    new Subject(9,"Data Science","/assets/imgkudr/datascience.png"),
+    new Subject(1,"Мистецтво","/assets/mainpage/subject/art.png"),
+    new Subject(5,"Освіта та викладання","/assets/mainpage/subject/education.png"),
+    new Subject(9,"Data Science","/assets/mainpage/subject/datascience.png"),
 
-    new Subject(6,"Дизайн","/assets/imgkudr/design.png"),
-    new Subject(2,"Здоровя та медицина","/assets/imgkudr/health.png"),
-    new Subject(10,"Програмування","/assets/imgkudr/dev.png"),
+    new Subject(6,"Дизайн","/assets/mainpage/subject/design.png"),
+    new Subject(2,"Здоровя та медицина","/assets/mainpage/subject/health.png"),
+    new Subject(10,"Програмування","/assets/mainpage/subject/dev.png"),
 
-    new Subject(3,"Бізнес","/assets/imgkudr/buisnes.png"),
-    new Subject(7,"Гуманітарні науки","/assets/imgkudr/humscience.png"),
-    new Subject(11,"Точні науки","/assets/imgkudr/sciences.png"),
+    new Subject(3,"Бізнес","/assets/mainpage/subject/buisnes.png"),
+    new Subject(7,"Гуманітарні науки","/assets/mainpage/subject/humscience.png"),
+    new Subject(11,"Точні науки","/assets/mainpage/subject/sciences.png"),
 
-    new Subject(4,"Компютерні науки","/assets/imgkudr/compscience.png"),
-    new Subject(8,"Математичні науки","/assets/imgkudr/math.png"),
-    new Subject(12,"Соціальні науки","/assets/imgkudr/social.png"),
+    new Subject(4,"Компютерні науки","/assets/mainpage/subject/compscience.png"),
+    new Subject(8,"Математичні науки","/assets/mainpage/subject/math.png"),
+    new Subject(12,"Соціальні науки","/assets/mainpage/subject/social.png"),
 
 
   ];
