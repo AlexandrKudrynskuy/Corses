@@ -2,12 +2,14 @@
     background-image: url('/assets/mainpage/background/wisdomwave.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-   height: 500px;
+    height: 42vw;
     margin-left: 5vw;
     margin-bottom: 0vw;
     margin-right: 5vw;
+    
  
 }
+
 .logoWawe{
     margin-left: 5vw;
     margin-top: 6vw;
@@ -41,8 +43,14 @@
 div{
     font-family: 'Comic Sans MS';
 }
-@media(width<600px) {
-     .wisdom{
-        margin-left: 0vw;
-     }
-}
+// @media(width<600px) {
+//      .wisdom{
+//         margin-left: 0vw;
+//      }
+// }
+
+// @media(width>700px) and (width<777){
+//     .wisdom{
+//        margin-right: 0wv;
+//     }
+// }
