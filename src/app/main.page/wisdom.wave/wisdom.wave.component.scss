@@ -2,31 +2,27 @@
     background-image: url('/assets/mainpage/background/wisdomwave.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 42vw;
-    margin-left: 5vw;
-    margin-bottom: 0vw;
-    margin-right: 5vw;
-    
- 
+    height: 47vw;
+   
+   
 }
 
 .logoWawe{
-    margin-left: 5vw;
+   
     margin-top: 6vw;
     font-family: 'Mochiy Pop One';
     font-size: 4vw;
 }
 .infoWawe{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5vw;
+  
+
     margin-top: 1.5vw;
     font-size: 1.5vw;
 }
 .buttonOll{
     color: #f87c56;
     background-color: hwb(0 100% 0%);
-
+    width: 19vw;
     border-color: #f87c56;
 
     font-size: 1vw;
@@ -34,9 +30,9 @@
 .buttonFreeCurs{
     color: hwb(0 100% 0%);
     background-color: #f87c56; 
-    
+    width: 19vw;
     font-size: 1vw;
-    
+    margin-left: 0px;
    
 }
 
@@ -49,8 +45,8 @@ div{
 //      }
 // }
 
-// @media(width>700px) and (width<777){
-//     .wisdom{
-//        margin-right: 0wv;
-//     }
-// }
+@media(width>700px) and (width<770){
+    .wisdom{
+       height: 45vw;
+    }
+}

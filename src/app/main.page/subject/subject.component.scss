@@ -1,16 +1,15 @@
 .myBody{
     background-image: url("/assets/mainpage/background/subjectback.png");
     background-size: 100%;
-    height: 36vw;
-    width: 90vw;
-    margin-left: 5vw;
+    background-repeat: no-repeat;
+    height: 39vw;
     font-family: 'Comic Sans MS';
 }
 button{
     color: hwb(0 100% 0%);
     height: 3vw; 
     background-color: #f87c56; 
-    width: 15vw;
+    width: 19vw;
     font-size: 1vw;
-    margin-top: 6vw;
+    margin-top: 0px;
 }

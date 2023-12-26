@@ -3,7 +3,7 @@ $main-font-size:0.9vw;
 .headerStyle{
     
     height: 8vw;
-    margin-left: 8vw;
+  
     background-color: white;
     padding-top: 1vw;
 }
@@ -12,11 +12,4 @@ font-family: $main-font-family;
 }
 .main-font-size{
     font-size: $main-font-size;
-}
-.col-5{
-   width: 28vw;
-   margin-top: 0;
-}
-.container{
-    height: 10vw;
 }
