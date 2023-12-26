@@ -10,7 +10,11 @@ import { Footer } from '../footer/footer.component';
   templateUrl: './personal.cabinet.component.html',
   styleUrl: './personal.cabinet.component.scss'
 })
+
 export class PersonalCabinetMain 
 {
- 
-}
+  
+    
+} 
+
+
