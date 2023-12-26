@@ -1,4 +1,4 @@
-class SubjectClass {
+export class SubjectClass {
     private _id: number = 0;
     private _name: string = '';
     private _path: string = '';

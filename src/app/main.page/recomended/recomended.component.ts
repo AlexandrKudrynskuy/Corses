@@ -32,6 +32,7 @@ import { Subject_service } from '../../service/Subject_service';
 export class MainPageRecomended {
   sub_serv = new Subject_service
   rez=this.sub_serv.SplitArray(4,this.sub_serv.InitTesrSubject());
+
   public stars: number[] = [1, 2, 3, 4, 5 ];
 
   public ratingValue: number = 0;

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
  class WaitingElem
  {
@@ -44,7 +45,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'main-page-wait-courses',
   standalone: true,
-  imports: [],
+  imports: [RouterLink, RouterOutlet],
   templateUrl: './wait.courses.component.html',
   styleUrl: './wait.courses.component.scss'
 })
