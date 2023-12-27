@@ -1,18 +1,5 @@
-// import { Component } from '@angular/core';
 
-// @Component({
-//   selector: 'app-recomended',
-//   standalone: true,
-//   imports: [],
-//   templateUrl: './recomended.component.html',
-//   styleUrl: './recomended.component.scss'
-// })
-// export class RecomendedComponent {
-
-// }
-
-
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 // import { CommonModule } from '@angular/common';
 // import { RouterOutlet } from '@angular/router';
@@ -27,7 +14,8 @@ import { Subject_service } from '../../service/Subject_service';
   standalone: true,
   imports: [FormsModule, NgbModule, CommonModule, RatingComponent],
   templateUrl: './recomended.component.html',
-  styleUrl: './recomended.component.scss'
+  styleUrl: './recomended.component.scss',
+  encapsulation: ViewEncapsulation.None
 })
 export class MainPageRecomended {
   sub_serv = new Subject_service

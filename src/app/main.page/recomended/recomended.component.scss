@@ -1,15 +1,15 @@
 .recomentedDiv{
     background-image: url('/assets/mainpage/background/recomendback.png');
     background-size: 100%;
-    height: 56vw;
+    height: 62vw;
     font-family: 'Comic Sans MS';
 }
 .divHeader{
     margin-top: 9vw;
     font-size: 2vw;
     font-weight: bold;
-    margin-left: 6vw;
-    margin-right: auto;
+    
+   
 }
 .recomendelCarusel{
     font-family: 'Comic Sans MS';
@@ -19,11 +19,10 @@
 
 }
 .card{
-    width: 18vw;
+    width: 17vw;
     margin-top: 3vw;
     border-color: white;
-    display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
     border-radius: 0;
@@ -44,17 +43,40 @@
 .card-title{
     font-size: 1.2vw;
 }
+.carousel-item{
+  margin-left: 8vw;
+  margin-top: 2vw;
+  width: 90vw;
+}
+.carousel-indicators{
+  width: 10vw;
+  visibility: hidden;
+
+}
+.carousel-control-next-icon{
+    background-image: url('/assets/mainpage/imgeducationalsubject/nextbutton.png');
+    margin-left: 9vw;
+    margin-top: 17vw;
+ 
+    width: 5vw;
+}
+.carousel-control-prev-icon{
+    background-image: url('/assets/mainpage/imgeducationalsubject/prevbutton.png');
+    margin-right: 9vw;
+    margin-top: 17vw;
+  
+    width: 5vw;
+}
 button{
 
-    color:  #f87c56; 
-    height: 3vw; 
-    background-color:hwb(0 100% 0%);
-    border-color: #f87c56;
-    width: 15vw;
-    margin-top: 3vw;
-    font-size: 1vw;
-    margin-left: auto;
-    margin-right: auto;
+  color: #f87c56;
+  background-color: hwb(0 100% 0%);
+  width: 19vw;
+  border-color: #f87c56;
+  width: 35vw;
+margin-left: auto;
+margin-right: auto;
+  font-size: 1vw;
 }
 .rating {
     display: inline-block;
